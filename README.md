@@ -1,6 +1,7 @@
 # QUESTmissions
 
-#Ch 1 Day 1
+# Ch 1 Day 1
+
 Explain what the Blockchain is in your own words.
   The Blockchain is a digital decentralized storage database that is stored in blocks and chained to gether after each block is full. The data is stored     among computer network nodes.
 
