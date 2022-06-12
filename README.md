@@ -20,3 +20,7 @@ Explain the difference between a script and a transaction.
  In your opinion, even without knowing anything about the Blockchain or coding, why could the 5 Pillars be useful (you don't have to answer this for #5)?
  
   Safety and Security provides builders and users with confidence in the technology they are interacting with, Clarity allows for seamless adoption, Approachability provides familiarity, and Developer Experience opens to doors for more growth as errors and debuging are more clear that other languages.
+
+# Ch 2 Day 1
+
+Deployed Contract and ran a Script to confirm execution using play.onflow.org
