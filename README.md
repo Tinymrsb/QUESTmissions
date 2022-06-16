@@ -24,3 +24,12 @@ Explain the difference between a script and a transaction.
 # Ch 2 Day 1
 
 Deployed Contract and ran a Script to confirm execution using play.onflow.org
+
+# CH 2 Day 2
+
+Explain why we wouldn't call changeGreeting in a script:
+
+What does the AuthAccount mean in the prepare phase of the transaction?
+
+What is the difference between the prepare phase and the execute phase in the transaction?
+
