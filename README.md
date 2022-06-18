@@ -61,6 +61,7 @@ init() {
 ```
 
 <img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174441900-f98f29d6-b404-4f0e-8c4e-1322b4ae18a7.png">
+
 ```
 import HelloWorld from 0x01
 
@@ -70,7 +71,10 @@ pub fun main(): Int {
 ```
 
 Then I ran the transaction to change the number. Here I included the log(signer.address) so I could see more informatiion. 
+
 <img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174442360-20b82330-bbb3-4a85-a5f3-539d43c88ad4.png">
+
+
 ```
 import HelloWorld from 0x01
 
@@ -87,7 +91,10 @@ transaction(myNewNumber: Int) {
 ```
 
 And again, running the Script to see my full changes completed.
+
 <img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174442399-9b9d4c4f-fc39-48aa-b396-40f7e6154475.png">
+
+
 ```
 import HelloWorld from 0x01
 
