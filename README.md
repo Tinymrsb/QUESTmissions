@@ -39,7 +39,9 @@ Deployed Contract and ran a Script to confirm execution using play.onflow.org
 4 This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.
 
 <img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174441645-dca78e15-6ea7-4a21-94e3-d5f4198e2330.png">
-`
+
+```
+
 pub var greeting: String
 pub var myNumber: Int
 
@@ -55,5 +57,6 @@ init() {
     self.greeting = "Hello, World!"
     self.myNumber = 0
 }
-`
+
+```
 
