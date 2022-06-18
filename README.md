@@ -39,25 +39,21 @@ Deployed Contract and ran a Script to confirm execution using play.onflow.org
 4 This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.
 
 <img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174441645-dca78e15-6ea7-4a21-94e3-d5f4198e2330.png">
-` 
-pub contract HelloWorld {
+`
+pub var greeting: String
+pub var myNumber: Int
 
-    pub var greeting: String
-    pub var myNumber: Int
+pub fun changeGreeting(newGreeting: String) {
+    self.greeting = newGreeting
+}
 
-    pub fun changeGreeting(newGreeting: String) {
-        self.greeting = newGreeting
-    }
-  
-    pub fun updateMyNumber(newNumber: Int) {
-        self.myNumber = newNumber
-    }
+pub fun updateMyNumber(newNumber: Int) {
+    self.myNumber = newNumber
+}
 
-    init() {
-        self.greeting = "Hello, World!"
-        self.myNumber = 0
-    }
-
-} 
+init() {
+    self.greeting = "Hello, World!"
+    self.myNumber = 0
+}
 `
 
