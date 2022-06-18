@@ -27,9 +27,35 @@ Deployed Contract and ran a Script to confirm execution using play.onflow.org
 
 # CH 2 Day 2
 
-Explain why we wouldn't call changeGreeting in a script:
+1 Explain why we wouldn't call changeGreeting in a script:
+  The Script is where the transaction can solely be viewed. No changes can be made in the Script.
 
-What does the AuthAccount mean in the prepare phase of the transaction?
+2 What does the AuthAccount mean in the prepare phase of the transaction?
+  The AuthAccount refers to who is responsible for signing the transaction. The user who is responsible will have the data stored from the transaction on   their AuthAccount.
 
-What is the difference between the prepare phase and the execute phase in the transaction?
+3 What is the difference between the prepare phase and the execute phase in the transaction?
+  The prepare phase is used to access the information in the users AuthAccount, and execute phase is used to change the data in the users AuthAccount.
+
+4 This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.
+
+<img width="1483" alt="image" src="https://user-images.githubusercontent.com/90923268/174441645-dca78e15-6ea7-4a21-94e3-d5f4198e2330.png">
+`pub contract HelloWorld {
+
+    pub var greeting: String
+    pub var myNumber: Int
+
+    pub fun changeGreeting(newGreeting: String) {
+        self.greeting = newGreeting
+    }
+  
+    pub fun updateMyNumber(newNumber: Int) {
+        self.myNumber = newNumber
+    }
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber = 0
+    }
+
+}`
 
